@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.covid-page-background {
+    background-color: #0967d219;
+    height: 100vh;
+    background-size: cover;
+}
+
+.covid-page-background2 {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.covid-page-main-heading {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.main-button {
+    border-radius: 10px;
+    background-color: #0967d2;
+    color: white;
+}
+
+.main-card {
+    padding: 10px;
+}
+
+.covid19-background-page {
+    background-color: #0967d219;
+    color: #323f4b;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-covid19 {
+    height: 70px;
+    width: 80px;
+    padding: 5px;
+}
+
+.symptoms-background-check {
+    border-radius: 10px;
+    margin: 15px;
+    height: 100px;
+    width: 90px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.symptoms-background-check-color1 {
+    background-color: #3ebd93;
+}
+
+.symptoms-background-check-color2 {
+    background-color: #e668a7;
+}
+
+.symptoms-background-check-color3 {
+    background-color: #a368fc;
+}
+
+.videos-background-page {
+    background-color: #e12d3919;
+    color: #323f4b;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.headings {
+    font-size: 18px;
+    color: #323f4b;
+    margin: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para {
+    font-family: "Roboto";
+    font-weight: 500;
+}
