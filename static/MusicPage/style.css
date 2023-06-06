@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homepage-card {
+    background-color: #03174c;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-homepage-main {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading-homepage {
+    color: white;
+    font-family: "Bree serif";
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.content-homepage {
+    color: white;
+    font-family: "Bree serif";
+}
+
+.image-night-island {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    height: 40vh;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.heading-nigth-island {
+    color: #ffe7bf;
+    text-align: center;
+}
+
+.nighti-island-content-card {
+    text-align: center;
+}
+
+.button {
+    background-color: #8e97fd;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.music-detail-page-card-image {
+    height: 50vh;
+    background-size: cover;
+}
+
+.music-detail-card {
+    padding: 10px;
+}
