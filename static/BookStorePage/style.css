@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-card-bookstore{
+    background-color: black;
+    height:100vh;
+    padding:5px
+}
+.heading-bookstore{
+    color:white;
+    font-family:"Bree Serif";
+}
+.abdul-kalam-image{
+    height:190px;
+    width:200px;
+}
+.abdul-kalam-card{
+    padding:10px;
+    background-color:#e6f6ff;
+    border-radius: 10px;
+    width:40vw;
+    height:30vh;
+}
+.abdul-kalam-conetent-card{
+    padding-left:15px;
+}
+.heading-abdul-kalam{
+    color:#183b56;
+    font-family:"Bree Serif";
+    font-weight:bold;
+    font-size:25px;
+}
+.content-abdul-kalam{
+    color: #060606;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.sub-heading-abdul-kalam{
+    color:#183b56;
+    font-family:"Bree Serif";
+    font-weight:bold;
+    font-size:15px;
+}
+.chethan-image{
+    height:25vh;
+    width:100px;
+}
+.chethan-card{
+    padding:15px;
+}
+.chethan-content-card{
+    padding-left:10px;
+}
+.heading-chethan{
+    color:white;
+    font-family:"Bree Serif";
+    font-weight:bold;
+    font-size:25px;
+}
+.content-chethan{
+    color:white;
+    font-family:"Roboto";
+    font-weight:bold;
+}
