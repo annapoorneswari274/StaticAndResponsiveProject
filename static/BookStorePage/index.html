@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="bg-card-bookstore">
+    <div class="bg-card-bookstore" id="sectionHomePage">
         <h1 class="heading-bookstore">Popular Books</h1>
         <div class="d-flex flex-row justify-content-start abdul-kalam-card">
             <img class="abdul-kalam-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"/>
@@ -18,7 +18,7 @@
                 <h1 class="heading-abdul-kalam">Wings Of Fire</h1>
                 <p class="content-abdul-kalam">An Autobiography of Abdul Kalam</p>
                 <p class="sub-heading-abdul-kalam">by Arun Tiwari</p>
-                <button class="btn btn-primary">Read Now</button>
+                <button class="btn btn-primary" onclick="display('sectionAbdulKalamDetailPage')">Read Now</button>
             </div>
         </div>
         <h1 class="heading-bookstore">Recommended Books</h1>
@@ -26,19 +26,47 @@
             <img class="chethan-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"/>
             <div class="chethan-content-card">
                 <h1 class="heading-chethan">The 3 mistakes of my life</h1>
-                <p class="content-chethan">Indian Author</p>
-                <p class="content-chethan">By Chethan Bhagat</p>
-                <button class="btn btn-primary">Read Now</button>
+                <p class="content-chethan">Indian Author</br> By Chethan Bhagat</p>
+                <button class="btn btn-primary" onclick="display('sectionChethan')">Read Now</button>
             </div>
         </div>
         <div class="d-flex flex-row chethan-card">
             <img class="chethan-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"/>
             <div class="chethan-content-card">
                 <h1 class="heading-chethan">Harry Potter</h1>
-                <p class="content-chethan">and the Sorcerer's Stone</p>
-                <p class="content-chethan">By J.K.Rowling</p>
-                <button class="btn btn-primary">Read Now</button>
+                <p class="content-chethan">and the Sorcerer's Stone</br> By J.K.Rowling</p>
+                <button class="btn btn-primary" onclick="display('sectionHarryPotter')">Read Now</button>
             </div>
+        </div>
+    </div>
+    <div class="abdul-kalam-detail-page" id="sectionAbdulKalamDetailPage">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"/>
+        <h1 class="heading-bookstore">Wings Of Fire</h1>
+        <p class="content-chethan">By Arun Tiwari</p>
+        <p class="content-chethan">Avul Pakir Jainulabdeen Abdul Kalam BR (/ˈɑːbdəl kəˈlɑːm/ (listen); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[2][3][4] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.[5]</p>
+        <div>
+            <button class="btn btn-secondary" onclick="display('sectionHomePage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div class="abdul-kalam-detail-page" id="sectionChethan">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"/>
+        <h1 class="heading-bookstore">The 3 mistakes of my life</h1>
+        <p class="content-chethan">By Chethan Bhagat</p>
+        <p class="content-chethan">Bhagat grew up in a traditional Punjabi Hindu family. His father served as a lieutenant colonel in the Indian Army and his mother worked as a scientist in Indian Agricultural Research Institute, New Delhi. He was schooled at the Army Public School, Dhaula Kuan.[3] He claims to have been an average student at 15.[4][5] His love for writing began during his school years. He used to write articles for the literary magazine of his school and seeing his name printed on the magazine as a writer encouraged him to continue writing.[6]. Bhagat graduated with a B.Tech. degree in Mechanical Engineering from the Indian Institute of Technology, Delhi in 1995.[7]</p>
+        <div>
+            <button class="btn btn-secondary" onclick="display('sectionHomePage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div class="abdul-kalam-detail-page" id="sectionHarryPotter">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"/>
+        <h1 class="heading-bookstore">Harry Potter</h1>
+        <p class="content-chethan">By J.K.Rowling</p>
+        <p class="content-chethan">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States. All versions around the world are printed by Grafica Veneta in Italy.[1] A series of many genres, including fantasy, drama, coming-of-age fiction, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[2] According to Rowling, the main theme is death.[3] Other major themes in the series include prejudice, corruption, and madness.[4]</p>
+        <div>
+            <button class="btn btn-secondary" onclick="display('sectionHomePage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
         </div>
     </div>
     <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
